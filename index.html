@@ -8,9 +8,33 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap.min.css"/>
       
+    <!-- FontAwesome CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+    <!-- Hive Font -->
+    <link href="https://fonts.googleapis.com/css?family=Hind:400,700" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="style.css">
+      
+    <style>
+        @media (max-width: 410px) {
+            .display-3{
+                font-size: 35pt;
+            }   
+        }
+        
+        @media (min-width: 411px) {
+            .display-3{
+                font-size: 50pt;
+            }
+        }
+        
+        @media (min-width: 800px) {
+            .display-3{
+                font-size: 60pt;
+            }
+        }
+    </style>
 
     <title>Craig Smith</title>
     <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico"/>
@@ -45,7 +69,7 @@
        <div class = "container">
           <div class="row" id = "resume">
               <div class = "col-12">
-                  <a href = "/assets/Craig%20Smith%20Resume.pdf"><button type="button" class="btn btn-primary"><i class="fa fa-download"></i> Resume</button></a>
+                  <a href = "assets/Craig%20Smith%20Resume.pdf"><button type="button" class="btn btn-primary"><i class="fa fa-download"></i> Resume</button></a>
               </div>
           </div>
        </div>
@@ -57,48 +81,56 @@
             <div class = "column col-6 col-sm-6 col-lg-3">
                 <div class = "card">
                     <h5 class="card-title">Java</h5>
+                    <h7 class="skill">Proficient</h7>
                 </div>
             </div>
             
             <div class = "column col-6 col-sm-6 col-lg-3">
                 <div class = "card">
                     <h5 class="card-title">C++</h5>
+                    <h7 class="skill"> Studying</h7>
                 </div>
             </div> 
             
             <div class = "column col-6 col-sm-6 col-lg-3">
                 <div class = "card">
                     <h5 class="card-title">Android</h5>
+                    <h7 class="skill">Intermediate</h7>
                 </div>
             </div>
             
             <div class = "column col-6 col-sm-6 col-lg-3">
                 <div class = "card">
                     <h5 class="card-title">HTML / CSS</h5>
+                    <h7 class="skill">Proficient</h7>
                 </div>
             </div>
             
             <div class = "column col-6 col-sm-6 col-lg-3">
                 <div class = "card">
                     <h5 class="card-title">Windows</h5>
+                    <h7 class="skill">Proficient</h7>
                 </div>
             </div>  
             
             <div class = "column col-6 col-sm-6 col-lg-3">
                 <div class = "card">
                     <h5 class="card-title">Linux</h5>
+                    <h7 class="skill">Intermediate</h7>
                 </div>
             </div> 
             
             <div class = "column col-6 col-sm-6 col-lg-3">
                 <div class = "card">
                     <h5 class="card-title">Git</h5>
+                    <h7 class="skill">Basic Usage</h7>
                 </div>
             </div> 
             
             <div class = "column col-6 col-sm-6 col-lg-3">
                 <div class = "card">
                     <h5 class="card-title">Docker</h5>
+                    <h7 class="skill">Basic Usage</h7>
                 </div>
             </div> 
         </div>
@@ -150,7 +182,9 @@
                           <li>Responsibly chaperoned competitions and other events to ensure student safety.</li>
                   </div>
               </div>
+          </div>
               
+<!--
               <div class = "column col-xs-12 col-md-6">
                   <div class = "card">
                       <h5 class="card-title">Production Assembler</h5>
@@ -171,7 +205,8 @@
 
                   </div>
               </div>
-          </div> 
+          </div>
+-->
           
         <h2 class = "section">Awards</h2>
         <div class = "row">
@@ -199,6 +234,13 @@
   </body>
     
   <footer>
-      <p>© Craig Smith 2018</p>
+      <div class = "container">
+          <div class = "row">
+              <div class = "col">
+                  <p>© Craig Smith 2018</p>
+              </div>
+          </div>
+      </div>
   </footer>
+    
 </html>

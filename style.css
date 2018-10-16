@@ -16,6 +16,7 @@ body {
     padding-right: 20px;
     padding-left: 20px;
     height: 100%;
+    font-family: 'Hind', sans-serif;
 }
 
 .column {
@@ -27,8 +28,14 @@ body {
     text-align: center;
 }
 
+.skill {
+    text-align: center;
+}
+
 .card-title {
     text-align: center;
+    font-size: 12pt;
+    font-weight: bold;
 }
 
 .jumbotron {
@@ -76,10 +83,6 @@ h7 {
     padding-bottom: 20px;
 }
 
-html {
-  font-size: 1rem;
-}
-
 #tag {
     padding-left: 10%;
     padding-right: 10%;
@@ -87,5 +90,10 @@ html {
 
 footer {
     text-align: center;
+    color: white;
 
 }
+
+.display-5 {
+    font-size: 1.5rem;
+} 
