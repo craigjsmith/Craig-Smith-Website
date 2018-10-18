@@ -24,15 +24,18 @@ body {
 }
 
 .card-subtitle {
+    width: 100%;
     padding-bottom: 10px;
     text-align: center;
 }
 
 .skill {
     text-align: center;
+    width: 100%;
 }
 
 .card-title {
+    width: 100%;
     text-align: center;
     font-size: 12pt;
     font-weight: bold;
@@ -97,3 +100,11 @@ footer {
 .display-5 {
     font-size: 1.5rem;
 } 
+
+ul {
+    padding-left: 15px;
+}
+
+.lnkbtn {
+    width: 100%;
+}
