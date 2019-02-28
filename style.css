@@ -81,6 +81,10 @@ h7 {
     width: 50%;
 }
 
+#subtitle {
+    font-family: 'Hind', sans-serif;
+}
+
 #social {
     padding-top: 10px;
     padding-bottom: 20px;
