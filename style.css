@@ -8,6 +8,10 @@ body {
     padding-bottom:10px;
 }
 
+.aligncard {
+     background-color: transparent;
+}
+
 .card {
     align-items: left;
     color: black;
@@ -16,6 +20,11 @@ body {
     padding-left: 15px;
     height: 100%;
     font-family: 'Hind', sans-serif;
+}
+
+.skills {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .skillcard {
