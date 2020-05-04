@@ -1,102 +1,326 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+
+<html>
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127713199-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/a3806e3eaa.js" crossorigin="anonymous"></script>
 
-      gtag('config', 'UA-127713199-1');
-    </script>    
-    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="bootstrap.min.css" />
-
-    <!-- Hind Font -->
-    <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
-    
-    <!-- Fira Mono Font -->
-    <link href="https://fonts.googleapis.com/css?family=Fira+Mono&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css" />
+    <!-- Meta -->
+    <meta property='og:title' content='Craig Smith' />               
+    <meta property='og:image' content='//craigsmith.dev/assets/ico/thumb.jpg' />                
+    <meta property='og:description' content="Hi I'm Craig,I'm a student at Michigan State University pursuing degrees in Computer Science and Experience Architecture (UX). I have a passion for software, particularly mobile and web applications. I have an eye for design and aspire to apply it to all my work. I’m a go-getter; my goal has always been to seek out every opportunity to develop and expand my skills. I pride myself on versatility: from design to programming, and everything in between, I can rise to any occasion and get it done."/>
+    <meta property='og:url' content='//craigsmith.dev/' />
 
     <title>Craig Smith</title>
     <link rel="shortcut icon" type="image/x-icon" href="assets/ico/favicon.ico" />
-    <meta property='og:image' content="assets/ico/thumb.jpg" />
+    
 </head>
 
 <body>
-    <div class="container">
-        <div id="row">
-            <a href = "https://craigsmith.dev" class = "noLink"><div id="col-auto" class="center">
-                <img src="assets/pic/craigsmith.png" id = "logo">
-            </div></a>
-        </div>
-    </div>
 
+    <section class="main">
+        <div class="content">
 
-    <div class="container-fluid" id="nav">
-        <div class="row h-100" id="nav-list">
-            <div class="col align-self-center current">
-                <a href="https://craigsmith.dev">
-                    <h2>about</h2>
-                </a>
-            </div>
-            <div class="col align-self-center">
-                <a href="resume.html">
-                    <h2>resume</h2>
-                </a>
-            </div>
-            <div class="col align-self-center">
-                <a href="portfolio.html">
-                    <h2>portfolio</h2>
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <div class="container content">
-        <div class="row">
-            <div class="col-12 col-md-4">
-                <img src="assets/pic/craig0.jpg" class = "profile" alt = "Craig Smith Profile">
-            </div>
-
-            <div class="col-12 col-md-8" id="intro">
-                <h3 id = "hi">Hi I'm Craig,</h3>
-                <p>
-                    I'm a student at Michigan State University pursuing degrees in <span class = "highlight">Computer Science</span> and <span class = "highlight">Experience Architecture</span> (UX). I have a passion for software, particularly <span class = "highlight">mobile</span> and <span class = "highlight">web</span> applications. I have an <span class = "highlight">eye for design</span> and aspire to apply it to all my work. I’m a go-getter; my goal has always been to seek out every opportunity to develop and expand my skills. I pride myself on <span class = "highlight">versatility</span>: from design to programming, and everything in between, I can rise to any occasion and <span class = "highlight">get it done</span>. Sound like a fit? <a href = "mailto:craig@craigsmith.dev" id = "email_link">Let’s chat!</a>
-                </p>
-
-                <div class="row" id="socialButtons">
-                    <div class="col-4">
-                        <a href = "https://git.craigsmith.dev" target="_blank">
-                            <img src="assets/btn/github.png" class="social" alt = "GitHub">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md col-12">
+                        <a href="index.html" class="noLink">
+                            <img src="assets/pic/craigsmith.png" id="logo">
                         </a>
                     </div>
-                    <div class="col-4">
-                        <a href = "https://linkedin.craigsmith.dev" target="_blank">
-                            <img src="assets/btn/linkedin.png" class="social" alt = "LinkedIn">
-                        </a>
+
+                    <div class="col-md col-sm-12">
+                        <div class="row" id="navcol">
+                            <div class="col nav-item">
+                                <a href="index.html">
+                                    <h5>about</h5>
+                                </a>
+                            </div>
+                            <div class="col nav-item">
+                                <a href="index.html#resume">
+                                    <h5>resume</h5>
+                                </a>
+                            </div>
+                            <div class="col nav-item">
+                                <a href="index.html#portfolio">
+                                    <h5>portfolio</h5>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-4">
-                        <a href = "mailto:craig@craigsmith.dev" target="_blank">
-                            <img src="assets/btn/email.png" class="social" alt = "craig@craigsmith.dev">
-                        </a>
+
+
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="assets/pic/craig0.jpg" class="profile" alt="Craig Smith Profile">
+                    </div>
+
+                    <div class="col-12 col-md-8" id="intro">
+                        <h3 id="hi">Hi I'm Craig,</h3>
+                        <p>
+                            I'm a student at Michigan State University pursuing degrees in <span class="highlight">Computer Science</span> and <span class="highlight">Experience Architecture</span> (UX). I have a passion for software, particularly <span class="highlight">mobile</span> and <span class="highlight">web</span> applications. I have an <span class="highlight">eye for design</span> and aspire to apply it to all my work. I’m a go-getter; my goal has always been to seek out every opportunity to develop and expand my skills. I pride myself on <span class="highlight">versatility</span>: from design to programming, and everything in between, I can rise to any occasion and <span class="highlight">get it done</span>. Sound like a fit? <a href="mailto:craig@craigsmith.dev" id="email_link">Let’s chat!</a>
+                        </p>
+
+                        <div class="row" id="socialButtons">
+                            <div class="col-4">
+                                <a href="https://git.craigsmith.dev" target="_blank">
+                                    <img src="assets/btn/github.png" class="social" alt="GitHub">
+                                </a>
+                            </div>
+                            <div class="col-4">
+                                <a href="https://linkedin.craigsmith.dev" target="_blank">
+                                    <img src="assets/btn/linkedin.png" class="social" alt="LinkedIn">
+                                </a>
+                            </div>
+                            <div class="col-4">
+                                <a href="mailto:craig@craigsmith.dev" target="_blank">
+                                    <img src="assets/btn/email.png" class="social" alt="craig@craigsmith.dev">
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <a id="resume"></a>
+    <section class="resume" id="res">
+        <div class="content">
+
+            <div id="skills">
+
+                <h1>What I Do</h1>
+                <h2>Click an icon to read more about my experience</h2>
+
+                <div id="langauges">
+
+                    <div class="container">
+
+                        <div class="row">
+
+                            <div class="col-lg-2 col-sm-12 skill-title">
+                                <h3>Languages</h3>
+                            </div>
+
+                            <div class="col-lg-2 col-sm-3 col-4 skill-btn" name="Java" remote="./skills/java.html">
+                                <img src="assets/icons/java.png" class="skill">
+                                <h4>Java</h4>
+                            </div>
+
+                            <div class="col-lg-2 col-sm-3 col-4 skill-btn" name="C++" remote="./skills/c.html">
+                                <img src="assets/icons/c.png" class="skill">
+                                <h4>C++</h4>
+                            </div>
+
+                            <div class="col-lg-2 col-sm-3 col-4 skill-btn" name="Python" remote="./skills/python.html">
+                                <img src="assets/icons/python.png" class="skill">
+                                <h4>Python</h4>
+                            </div>
+
+                            <div class="col-lg-2 col-sm-3 col-4">
+                                <img src="assets/icons/javascript.png" class="skill">
+                                <h4>JavaScipt</h4>
+                            </div>
+
+                        </div>
+
+                        <div id="tech">
+
+                            <div class="row">
+
+                                <div class="col-lg-2 col-sm-12 skill-title">
+                                    <h3>Tech</h3>
+                                </div>
+
+                                <div class="col-lg-2 col-sm-3 col-4">
+                                    <img src="assets/icons/android.png" class="skill">
+                                    <h4>Android</h4>
+                                </div>
+
+                                <div class="col-lg-2 col-sm-3 col-4">
+                                    <img src="assets/icons/react.png" class="skill">
+                                    <h4>React</h4>
+                                </div>
+
+                                <div class="col-lg-2 col-sm-3 col-4">
+                                    <img src="assets/icons/aws.png" class="skill">
+                                    <h4>AWS</h4>
+                                </div>
+
+                                <div class="col-lg-2 col-sm-3 col-4">
+                                    <img src="assets/icons/git.png" class="skill">
+                                    <h4>Git</h4>
+                                </div>
+
+                                <div class="col-lg-2 col-sm-3 col-4">
+                                    <img src="assets/icons/docker.png" class="skill">
+                                    <h4>Docker</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="design">
+
+                            <div class="row">
+
+                                <div class="col-lg-2 col-sm-12 skill-title">
+                                    <h3>Design</h3>
+                                </div>
+
+                                <div class="col-lg-2 col-sm-3 col-4">
+                                    <img src="assets/icons/html.png" class="skill">
+                                    <h4>HTML/CSS</h4>
+                                </div>
+
+                                <div class="col-lg-2 col-sm-3 col-4">
+                                    <img src="assets/icons/bootstrap.png" class="skill">
+                                    <h4>Bootstrap</h4>
+                                </div>
+
+                                <div class="col-lg-2 col-sm-3 col-4">
+                                    <img src="assets/icons/xd.png" class="skill">
+                                    <h4>Adobe XD</h4>
+                                </div>
+
+                                <div class="col-lg-2 col-sm-3 col-4">
+                                    <img src="assets/icons/illustrator.png" class="skill">
+                                    <h4>Illustrator</h4>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
+                <div class="row">
+                    <dic class="col-12">
+                        <a href="assets/Craig%20Smith%20Resume.pdf" target="_blank" class="noLink"><button type="button" class="btn btn-lg btn-outline-primary" id="resumebtn"><i class="fas fa-download"></i> Resume PDF</button></a>
+                    </dic>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <a id="portfolio"></a>
+    <section class="portfolio">
+        <div class="content-nova">
+            <div class="container">
+
+
+                <h1>My Work</h1>
+                <h2>Here's some of my work, professional and personal, that I'm really proud of</h2>
+
+                <div id="portfolio-items">
+
+                    <div class="row">
+                        <div class="project col-12 col-lg-6">
+                            <div class="project-background">
+                                <a class="noLink" href="projects/ilistento.html">
+                                    <img src="assets/portfolio/ilistento.png" class="port_img">
+
+                                    <h2 class="project_title">i Listen To</h2>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="project col-12 col-lg-6">
+                            <div class="project-background">
+                                <a class="noLink" href="projects/hollysaugatuck.html">
+                                    <img src="assets/portfolio/holly_devices.png" class="port_img">
+
+                                    <h2 class="project_title">Holly Leo for Saugatuck</h2>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="project col-12 col-lg-6">
+                            <div class="project-background">
+                                <a class="noLink" href="projects/genisama.html">
+                                    <img src="assets/portfolio/genisama.png" class="port_img">
+
+                                    <h2 class="project_title">GENISAMA Software Download</h2>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="project col-12 col-lg-6">
+                            <div class="project-background">
+                                <a class="noLink" href="projects/stuinfo.html">
+                                    <img src="assets/portfolio/stuinfo.png" class="port_img">
+
+                                    <h2 class="project_title">MSU StuInfo Redesign Concept</h2>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="project col-12 col-lg-6">
+                            <div class="project-background">
+                                <a class="noLink" href="projects/scout.html">
+                                    <img src="assets/portfolio/bobscout.png" class="port_img">
+
+                                    <h2 class="project_title">FIRST Robotics Scouting App</h2>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h1>&copy; Craig Smith 2018-2020</h1>
+    </footer>
+
+</body>
+
+<div class="modal" id="skill-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="skill-modal-title"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="false">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
             </div>
         </div>
     </div>
+</div>
 
-
-</body>    
-    
-</html>
+<script>
+    $('.skill-btn').on('click', function(e) {
+        e.preventDefault();
+        document.querySelector("#skill-modal-title").innerHTML = ($(this).attr('name'));
+        $('#skill-modal').find('.modal-body').load($(this).attr('remote'));
+        $('#skill-modal').modal('toggle')
+    });
+</script></html>

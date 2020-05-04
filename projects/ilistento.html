@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="../style.css" />
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Meta -->
+    <meta property='og:title' content='Craig Smith' />               
+    <meta property='og:image' content='//craigsmith.dev/assets/ico/thumb.jpg' />                
+    <meta property='og:description' content="Hi I'm Craig,I'm a student at Michigan State University pursuing degrees in Computer Science and Experience Architecture (UX). I have a passion for software, particularly mobile and web applications. I have an eye for design and aspire to apply it to all my work. I’m a go-getter; my goal has always been to seek out every opportunity to develop and expand my skills. I pride myself on versatility: from design to programming, and everything in between, I can rise to any occasion and get it done."/>
+    <meta property='og:url' content='//craigsmith.dev/' />
+
+    <title>Craig Smith - i Listen To</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/ico/favicon.ico" />
+    
+</head>
+
+<body>
+
+    <section class="main">
+        <div class="content">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md col-12">
+                        <a href="../index.html" class="noLink">
+                            <img src="../assets/pic/craigsmith.png" id="logo">
+                        </a>
+                    </div>
+
+                    <div class="col-md col-sm-12">
+                        <div class="row" id="navcol">
+                            <div class="col nav-item">
+                                <a href="../index.html">
+                                    <h5>about</h5>
+                                </a>
+                            </div>
+                            <div class="col nav-item">
+                                <a href="../index.html#resume">
+                                    <h5>resume</h5>
+                                </a>
+                            </div>
+                            <div class="col nav-item">
+                                <a href="../index.html#portfolio">
+                                    <h5>portfolio</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="row port_row" id="ilistento">
+                        <div class="col-12 center">
+                            <img src="../assets/portfolio/ilistento.png" class="port_img">
+                        </div>
+
+                        <div class="col">
+                            <h2 class="port_title">i Listen To</h2>
+
+                            <div class="row">
+                                <div class="col-auto" style="padding-right:0">
+                                    <img src="../assets/ico/info_ico.png" class="align-top port_ico" style="height: 35px;">
+                                </div>
+
+                                <div class="col" style="padding-left:0">
+                                    <h4>Web application to show personalized Spotify listening statistics over time</h4>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-auto" style="padding-right:0">
+                                    <img src="../assets/ico/keyboard_ico.png" class="align-top port_ico" style="height: 35px;">
+                                </div>
+
+                                <div class="col" style="padding-left:0">
+                                    <h4 class="tech">JavaScript, React, HTML/CSS, Bootstrap, AWS (S3), Spotify API</h4>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-auto" style="padding-right:0">
+                                    <img src="../assets/ico/calendar-ico.png" class="align-top port_ico" style="height: 35px;">
+                                </div>
+
+                                <div class="col-auto" style="padding-left:0">
+                                    <h4 class="tech">December 2019</h4>
+                                </div>
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-12 col-sm-auto">
+                                    <div class="row">
+
+                                        <div class="col-auto" style="padding-right:0">
+                                            <img src="../assets/ico/link_ico.png" class="align-top port_ico" style="height: 35px;">
+                                        </div>
+
+                                        <div class="col-auto" style="padding-left:0">
+                                            <h4><a href="http://ilistento.net" target="_blank">ilistento.net</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-sm-auto">
+                                    <div class="row">
+                                        <div class="col-auto" style="padding-right:0">
+                                            <img src="../assets/ico/git_ico.png" class="align-top port_ico" style="height: 35px;">
+                                        </div>
+
+                                        <div class="col-auto" style="padding-left:0">
+                                            <h4><a href="https://github.com/craigjsmith/iListenTo" target="_blank">Source Code</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class = "portfolio-desc">
+                                <p>A standard feature amongst classic media players was the ability to see personal listening statistics, such as your top listened to artists and tracks. Spotify lacks this feature; however, this data is available through the Spotify Web API (primarily for use by advertisers). With my web application, users can see their own top 50 artists and tracks of the last 4 weeks, 6 months, and all time.</p>
+
+                                <p>Built using React, iListenTo.net is accessible on all devices with a web browser; no need for downloads or platform specific code. With Bootstrap, I carefully designed the UI to be responsive to screens of all sizes and to follow Spotify’s branding guidelines. The application authenticates with Spotify using an Implicit-Grant authentication flow, allowing all code to be run client-side and avoiding the need to host a costly backend. I built this application with security in mind, provisioning as few account rights as possible. When users connect their Spotify accounts, the application’s access token is valid only for a single session and all web requests are made client side; none of this information is ever seen by iListenTo.net.</p>
+
+                                <p>With iListenTo, Spotify users can gain insight into their listening habits and everchanging musical tastes without surrendering this data to third parties.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h1>&copy; Craig Smith 2018-2020</h1>
+    </footer>
+
+</body>
+
+</html>
