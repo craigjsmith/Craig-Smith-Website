@@ -44,8 +44,15 @@
         }
     }
 
+    .about {
+        height: 90vh;
+        background-color: #013240;
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+
     .main {
-        height: 95vh;
+        height: 100%;
         background-color: #013240;
         padding-top: 0%;
         padding-bottom: 0%;
@@ -554,8 +561,8 @@
         padding: 10px;
     }
 
-    .modal a:hover {
-        color: black;
+    .modal a {
+        color: #0049ee;
     }
 
     .modal p {
@@ -567,37 +574,6 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 70%;
+        width: 60%;
         padding-bottom: 15px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

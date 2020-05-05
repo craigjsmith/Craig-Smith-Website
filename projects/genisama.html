@@ -3,8 +3,10 @@
 <html lang='en'>
 
 <head>
-    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="/style.css" />
 
+    <script src="/script.js"></script>
+    
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,8 +18,18 @@
     <meta property='og:url' content='//craigsmith.dev/' />
     <meta name="Description" content="Hi I'm Craig,I'm a student at Michigan State University pursuing degrees in Computer Science and Experience Architecture (UX). I have a passion for software, particularly mobile and web applications. I have an eye for design and aspire to apply it to all my work. I’m a go-getter; my goal has always been to seek out every opportunity to develop and expand my skills. I pride myself on versatility: from design to programming, and everything in between, I can rise to any occasion and get it done.">
     
-    <title>Craig Smith - GENISAMA Software Download</title>
-    <link rel="shortcut icon" type="image/x-icon" href="../assets/ico/favicon.ico" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127713199-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-127713199-1');
+    </script>
+    
+    <title>Craig Smith - GENISAMA Software Distribution</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/ico/favicon.ico" />
     
 </head>
 
@@ -29,25 +41,25 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md col-12">
-                        <a href="../index.html" class="noLink">
-                            <img src="../assets/pic/craigsmith.png" id="logo" alt="Craig Smith">
+                        <a href="/" class="noLink">
+                            <img src="/assets/pic/craigsmith.svg" id="logo" alt="Craig Smith">
                         </a>
                     </div>
 
                     <div class="col-md col-sm-12">
                         <div class="row" id="nav">
                             <div class="col nav-item">
-                                <a href="../index.html">
+                                <a href="/">
                                     <h5>about</h5>
                                 </a>
                             </div>
                             <div class="col nav-item">
-                                <a href="../index.html#resume">
+                                <a href="/#resume">
                                     <h5>resume</h5>
                                 </a>
                             </div>
                             <div class="col nav-item">
-                                <a href="../index.html#portfolio">
+                                <a href="/#portfolio">
                                     <h5>portfolio</h5>
                                 </a>
                             </div>
@@ -61,15 +73,15 @@
                 <div class="row">
                     <div class="row portfolio-page" id="ilistento">
                         <div class="col-12 center">
-                            <img src="../assets/portfolio/genisama_info.png" class="port_img" alt = "GENISAMA Software Download Screenshot & Diagram">
+                            <img src="/assets/portfolio/genisama_info.png" class="port_img" alt = "GENISAMA Software Download Screenshot & Diagram">
                         </div>
 
                         <div class="col">
-                            <h2 class="port_title">GENISAMA Software Download</h2>
+                            <h2 class="port_title">GENISAMA Software Distribution</h2>
 
                             <div class="row">
                                 <div class="col-auto portfolio_col_icon">
-                                    <img src="../assets/ico/info_ico.png" alt = "Info" class="align-top port_ico">
+                                    <img src="/assets/ico/info_ico.png" alt = "Info" class="align-top port_ico">
                                 </div>
 
                                 <div class="col portfolio_col_text">
@@ -79,7 +91,7 @@
 
                             <div class="row">
                                 <div class="col-auto portfolio_col_icon">
-                                    <img src="../assets/ico/keyboard_ico.png" alt = "Technologies" class="align-top port_ico">
+                                    <img src="/assets/ico/keyboard_ico.png" alt = "Technologies" class="align-top port_ico">
                                 </div>
 
                                 <div class="col portfolio_col_text">
@@ -89,7 +101,7 @@
 
                             <div class="row">
                                 <div class="col-auto portfolio_col_icon">
-                                    <img src="../assets/ico/calendar-ico.png" alt = "Date" class="align-top port_ico">
+                                    <img src="/assets/ico/calendar-ico.png" alt = "Date" class="align-top port_ico">
                                 </div>
 
                                 <div class="col-auto portfolio_col_text">
@@ -103,6 +115,8 @@
                                 <p>First, a user creates an account. Along with their registration, they provide a serial number. Using Lambda and DynamoDB, these serial numbers can be verified and assigned uniquely to a user. Before the serial numbers are checked, the invisible reCAPTCHA v3 must be satisfied. This prevents spam, or bot attempts to guess a valid serial number. After registration, the user is prompted to verify their account with a confirmation code sent to their email through SES. This allows the user to reset their password if needed. Once their account registration has been completed, the user is able to download their licensed software. Every file download is provisioned through Cognito and IAM, so the resulting download link is only valid for the provisioned user, and only temporarily.</p>
 
                                 <p>With my software, GENISAMA can securely distribute their proprietary software exclusively to licensed customers. Built with modern web and AWS technologies, my solution is scalable, cost effective, and reliable.</p>
+                                
+                                <p>After the completion of this project, I was contracted again to implement the Cognito authenticaion scheme from this application into an already existing Android app. This integration was simple using AWS SDK and reCAPTCHA SDK for Android, nearly identical to its implementation in Javascript.</p>  
                             </div>
 
                         </div>
@@ -113,7 +127,7 @@
     </section>
 
     <footer>
-        <h4>&copy; Craig Smith 2018-2020</h4>
+        <h4>&copy; Craig Smith</h4>
     </footer>
 
 </body>
