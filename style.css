@@ -47,15 +47,13 @@
 
     @media (max-width: 576px) {
         section {
-            padding-left: 10px;
-            padding-right: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
         }
     }
 
     .about {
         height: 90vh;
-        margin-top: 15px;
-        margin-bottom: 15px;
         background-color: #013240;
         padding-top: 0%;
         padding-bottom: 0%;
@@ -160,6 +158,8 @@
     header {
         margin-top: 20px;
         margin-bottom: 20px;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .logo-wrapper {
@@ -174,7 +174,7 @@
         font-family: 'myriad-pro', sans-serif;
         font-style: normal;
         font-weight: 400;
-        padding-left: 10px;
+        padding-left: 0px;
         padding-right: 0px;
     }
 
@@ -192,7 +192,7 @@
     #nav {
         float: right;
         padding: 0px;
-        margin ; 0;
+        margin: 0;
         margin-top: 15px;
         margin-bottom: 15px;
         max-width: 300px;
@@ -215,6 +215,10 @@
 
     .nav-item-first {
         padding-left: 0px !important;
+    }
+
+    .nav-item-last {
+        padding-right: 0px !important;
     }
 
 /* ~~~ About ~~~ */
