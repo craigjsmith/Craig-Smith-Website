@@ -1,8 +1,11 @@
-/* Google Fonts */
+/* Google Fonts - Fira Mono, Hind */
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono|Hind&display=swap');
 
+/* Adobe Fonts - Myriad Pro */
+@import url("https://use.typekit.net/bbg1paf.css");
+
 /* Bootstrap */
-@import url('bootstrap.min.css');
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
 
 
 /* ~~~ Basic ~~~ */
@@ -20,6 +23,11 @@
         background-color: #013240;
         overflow-x: hidden;
         color: white;
+    }
+
+    header {
+        margin-top: 2%;
+        margin-bottom: 2%;
     }
 
     footer {
@@ -46,6 +54,8 @@
 
     .about {
         height: 90vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
         background-color: #013240;
         padding-top: 0%;
         padding-bottom: 0%;
@@ -150,10 +160,11 @@
 
     #logo {
         max-width: 90%;
-        height: 120px;
+        height: 100px;
         object-fit: contain !important;
-        margin-bottom: 30px;
-        padding-top: 4%;
+        font-family: 'myriad-pro', sans-serif;
+        font-style: normal;
+        font-weight: 400;
     }
 
     @media (max-width: 992px) {
@@ -174,9 +185,13 @@
 
     #nav {
         padding-right: 15px;
-        margin-top: 50px;
+        margin-top: 0px;
         margin-bottom: 0px;
         float: right;
+    }
+
+    #nav h5 {
+        margin: 0;
     }
 
     .nav-item {
@@ -184,16 +199,17 @@
         padding-left: 25px;
     }
 
-    @media (max-width: 767px) {
+    @media (max-width: 768px) {
         #nav {
-            padding-right: 0px;
-            margin-top: 0px;
+            padding: 0px;
+            margin-top: 15px;
             margin-bottom: 15px;
             float: none;
             max-width: 300px;
             margin-left: auto;
             margin-right: auto;
             text-align: center;
+            width: 100%;
         }
 
         .nav-item {
@@ -227,19 +243,13 @@
         border: 3px solid white;
     }
 
-    @media (max-width: 1200px) {
+    @media (max-width: 992px) {
         .profile {
             float: none;
             display: block;
-            width: 100%;
             margin-left: auto;
             margin-right: auto;
-        }
-    }
-
-    @media (max-width: 768px) {
-        .profile {
-            width: 60%;
+            width: 50%;
         }
     }
 
@@ -576,4 +586,6 @@
         margin-right: auto;
         width: 60%;
         padding-bottom: 15px;
+        font-family: 'Fira Mono', monospace;
+        text-align: center;
     }

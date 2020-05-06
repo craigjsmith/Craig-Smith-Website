@@ -13,7 +13,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="style.css" />
-    
+
     <script src="script.js"></script>
 
     <!-- Required meta tags -->
@@ -26,15 +26,18 @@
     <meta property='og:description' content="Hi I'm Craig,I'm a student at Michigan State University pursuing degrees in Computer Science and Experience Architecture (UX). I have a passion for software, particularly mobile and web applications. I have an eye for design and aspire to apply it to all my work. I’m a go-getter; my goal has always been to seek out every opportunity to develop and expand my skills. I pride myself on versatility: from design to programming, and everything in between, I can rise to any occasion and get it done." />
     <meta property='og:url' content='//craigsmith.dev/' />
     <meta name="Description" content="Hi I'm Craig,I'm a student at Michigan State University pursuing degrees in Computer Science and Experience Architecture (UX). I have a passion for software, particularly mobile and web applications. I have an eye for design and aspire to apply it to all my work. I’m a go-getter; my goal has always been to seek out every opportunity to develop and expand my skills. I pride myself on versatility: from design to programming, and everything in between, I can rise to any occasion and get it done.">
-    
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127713199-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-      gtag('config', 'UA-127713199-1');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-127713199-1');
     </script>
 
 
@@ -48,45 +51,51 @@
     <section class="about">
         <div class="content">
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-md col-12">
-                        <a href="/" class="noLink">
-                            <img src="/assets/pic/craigsmith.svg" id="logo" alt="Craig Smith">
-                        </a>
-                    </div>
+            <header>
+                <div class="container">
+                    <div>
+                        <div class="row">
 
-                    <div class="col-md col-sm-12">
-                        <div class="row" id="nav">
-                            <div class="col nav-item">
-                                <a href="/">
-                                    <h5>about</h5>
+                            <div class="col-sm-12 col-md my-auto">
+                                <a href="/" class="noLink">
+                                    <img src="/assets/pic/craigsmith.svg" id="logo" alt="Craig Smith">
                                 </a>
                             </div>
-                            <div class="col nav-item">
-                                <a href="#resume">
-                                    <h5>resume</h5>
-                                </a>
+
+                            <div class="col-sm-12 col-md my-auto">
+
+                                <div class="row" id="nav">
+                                    <div class="col nav-item">
+                                        <a href="/">
+                                            <h5>about</h5>
+                                        </a>
+                                    </div>
+                                    <div class="col nav-item">
+                                        <a href="#resume">
+                                            <h5>resume</h5>
+                                        </a>
+                                    </div>
+                                    <div class="col nav-item">
+                                        <a href="#portfolio">
+                                            <h5>portfolio</h5>
+                                        </a>
+                                    </div>
+                                </div>
+
                             </div>
-                            <div class="col nav-item">
-                                <a href="#portfolio">
-                                    <h5>portfolio</h5>
-                                </a>
-                            </div>
+
                         </div>
                     </div>
-
-
                 </div>
-            </div>
+            </header>
 
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-12 col-lg-4">
                         <img src="/assets/pic/craig0.jpg" class="profile" alt="Craig Smith Profile">
                     </div>
 
-                    <div class="col-12 col-md-8" id="intro">
+                    <div class="col-md-12 col-lg-8" id="intro">
                         <h3 id="hi">Hi I'm Craig,</h3>
                         <p>
                             I'm a student at Michigan State University pursuing degrees in <strong>Computer Science</strong> and <strong>Experience Architecture</strong> (UX). I have a passion for software, particularly <strong>mobile</strong> and <strong>web</strong> applications. I have an <strong>eye for design</strong> and aspire to apply it to all my work. I’m a go-getter; my goal has always been to seek out every opportunity to develop and expand my skills. I pride myself on <strong>versatility</strong>: from design to programming, and everything in between, I can rise to any occasion and <strong>get it done</strong>. Sound like a fit? <a href="mailto:craig@craigsmith.dev" id="email_link">Let’s chat!</a>
@@ -142,7 +151,7 @@
                                     <h4>Java</h4>
                                 </div>
                             </div>
-                            
+
                             <div class="col-lg-2 col-sm-3 col-4 skill-btn" name="JavaScript" remote="./skills/javascript.html">
                                 <div class="skill-btn-inner">
                                     <img src="/assets/icons/javascript.png" class="skill" alt="JavaScript">
@@ -180,7 +189,7 @@
                                         <h4>AWS</h4>
                                     </div>
                                 </div>
-                                
+
                                 <div class="col-lg-2 col-sm-3 col-4 skill-btn" name="Android" remote="./skills/android.html">
                                     <div class="skill-btn-inner">
                                         <img src="/assets/icons/android.png" class="skill" alt="Android">
@@ -353,6 +362,4 @@
             </div>
         </div>
     </div>
-</div>
-
-</html>
+</div></html>
