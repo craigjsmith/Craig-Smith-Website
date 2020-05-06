@@ -47,8 +47,8 @@
 
     @media (max-width: 576px) {
         section {
-            padding-left: 15px;
-            padding-right: 15px;
+            padding-left: 10px;
+            padding-right: 10px;
         }
     }
 
@@ -158,6 +158,12 @@
 
     /* Header */
 
+
+    .logo-wrapper {
+        padding: 0;
+        margin: 0;
+    }
+
     #logo {
         max-width: 90%;
         height: 100px;
@@ -165,16 +171,8 @@
         font-family: 'myriad-pro', sans-serif;
         font-style: normal;
         font-weight: 400;
-    }
-
-    @media (max-width: 992px) {
-        #logo {
-            float: none;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 5px;
-        }
+        padding-left: 10px;
+        padding-right: 0px;
     }
 
     #logo:hover {
@@ -183,41 +181,37 @@
 
 /* Navigation */
 
+    #nav-wrapper {
+        margin: 0;
+        padding: 0;
+    }
+
     #nav {
-        padding-right: 15px;
         margin-top: 0px;
         margin-bottom: 0px;
         float: right;
-    }
-
-    #nav h5 {
-        margin: 0;
-    }
-
-    .nav-item {
-        text-align: right;
-        padding-left: 25px;
-    }
-
-    @media (max-width: 768px) {
-        #nav {
+        
             padding: 0px;
+            margin ; 0;
             margin-top: 15px;
             margin-bottom: 15px;
-            float: none;
             max-width: 300px;
             margin-left: auto;
             margin-right: auto;
             text-align: center;
             width: 100%;
-        }
-
-        .nav-item {
-            text-align: center;
-            padding-left: 0px;
-        }
     }
 
+    #nav h5 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-item {
+        text-align: right;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
 /* ~~~ About ~~~ */
 
@@ -410,7 +404,7 @@
         outline: none;
     }
 
-    #langauges {
+    #languages {
         padding-top: 10px;
     }
 
