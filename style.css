@@ -25,6 +25,11 @@
         color: white;
     }
 
+    header {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
     footer {
         padding-top: 15px;
         padding-bottom: 15px;
@@ -150,13 +155,11 @@
         margin-left: 10px;
     }
 
-
     /* Header */
 
-
     header {
-        margin-top: 2%;
-        margin-bottom: 2%;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .logo-wrapper {
@@ -187,19 +190,16 @@
     }
 
     #nav {
-        margin-top: 0px;
-        margin-bottom: 0px;
         float: right;
-        
-            padding: 0px;
-            margin ; 0;
-            margin-top: 15px;
-            margin-bottom: 15px;
-            max-width: 300px;
-            margin-left: auto;
-            margin-right: auto;
-            text-align: center;
-            width: 100%;
+        padding: 0px;
+        margin ; 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 100%;
     }
 
     #nav h5 {
@@ -211,6 +211,10 @@
         text-align: right;
         padding-left: 10px;
         padding-right: 10px;
+    }
+
+    .nav-item-first {
+        padding-left: 0px !important;
     }
 
 /* ~~~ About ~~~ */
@@ -404,7 +408,7 @@
         outline: none;
     }
 
-    #languages {
+    #langauges {
         padding-top: 10px;
     }
 
@@ -461,7 +465,7 @@
 
     .project {
         padding: 15px;
-        margin-bottom: 50px;
+        margin-bottom: 0px;
     }
 
     .project-background {
