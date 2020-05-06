@@ -1,12 +1,11 @@
 /* Google Fonts - Fira Mono, Hind */
-@import url('https://fonts.googleapis.com/css?family=Fira+Mono|Hind&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=IBM+Plex+Sans+Condensed:wght@300&family=Nunito:wght@400;700&family=Ubuntu+Mono&display=swap');
 
 /* Adobe Fonts - Myriad Pro */
 @import url("https://use.typekit.net/bbg1paf.css");
 
 /* Bootstrap */
 @import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
-
 
 /* ~~~ Basic ~~~ */
 
@@ -43,6 +42,8 @@
         display: table;
         margin: 0;
         height: 100vh;
+        padding-left: auto;
+        padding-right: auto;
     }
 
     @media (max-width: 576px) {
@@ -92,27 +93,32 @@
         display: table-cell;
     }
 
+    p {
+        font-family: 'Hind', 'regular';
+    }
+
     h1 {
         font-size: 2.5rem;
         color: white;
-        font-family: 'Hind', 'regular';
+        font-family: 'Nunito', sans-serif;
+        font-weight: 600;
     }
 
     h2 {
         font-size: 1.16rem;
-        font-family: 'Fira Mono', monospace;
         color: white;
+        font-family: 'Hind', 'regular';
     }
 
     h3 {
-        font-size: 1.2rem;
-        font-family: 'Fira Mono', monospace;
+        font-size: 1.5rem;
+        font-family: 'Ubuntu Mono', monospace;
         color: white;
     }
 
     h4 {
         font-size: 1rem;
-        font-family: 'Hind', 'regular';
+        font-family: 'IBM Plex Sans Condensed', sans-serif;
         color: white;
     }
 
@@ -126,11 +132,13 @@
         color: #569BF8;
         padding: 0;
         margin: 0;
+        font-family: 'Hind', 'regular';
     }
 
     a:hover {
         color: white;
         text-decoration-style: dotted !important;
+        text-decoration-skip-ink: none;
     }
 
     .noLink {
@@ -205,6 +213,8 @@
     #nav h5 {
         margin: 0;
         padding: 0;
+        font-family: 'IBM Plex Sans Condensed', sans-serif;
+        font-size: 14pt;
     }
 
     .nav-item {
@@ -224,6 +234,7 @@
 /* ~~~ About ~~~ */
 
     #hi {
+        font-family: 'Ubuntu Mono', monospace;
         padding-bottom: 5px;
         color: white;
         text-align: left;
@@ -264,9 +275,13 @@
     #intro p {
         margin-bottom: 0;
         font-size: 1.45rem;
-        font-family: Hind, regular;
     }
 
+    @media (max-width: 768px) {
+        #intro p {
+            font-size: 1.2rem;
+        }
+    }
 
     #email_link {
         color: white;
@@ -323,7 +338,7 @@
 /* ~~~ Resume ~~~ */
 
     .resume h1,
-    .resume h3 {
+    .resume h2 {
         text-align: center;
     }
 
@@ -362,6 +377,12 @@
             padding-top: 0px;
             padding-bottom: 0px;
             text-align: left;
+            background-color: #1B5968;
+        }
+        
+        .skill-title h2 {
+            margin-top: 5px;
+            margin-bottom: 5px;
         }
     }
 
@@ -382,6 +403,10 @@
             padding-left: 0%;
             padding-right: 0%;
         }
+        
+        .skill-title {
+            text-align: center;
+        }
     }
 
     .skill-hover {
@@ -400,6 +425,7 @@
         margin-top: 25px;
         color: white;
         border-color: white;
+        font-family: 'Hind', 'regular';
     }
 
     #resumebtn:hover {
@@ -412,8 +438,8 @@
         outline: none;
     }
 
-    #langauges {
-        padding-top: 10px;
+    #skills-container {
+        padding-top: 20px;
     }
 
     #tech,
@@ -451,14 +477,8 @@
         margin-right: auto;
     }
 
-    .project_title {
-        color: white;
-        text-align: center;
-        margin-bottom: 0;
-        font-family: 'Hind', 'regular';
-    }
-
     .port_title {
+        font-family: 'Nunito', sans-serif;
         color: white;
         text-align: left;
     }
@@ -470,6 +490,11 @@
     .project {
         padding: 15px;
         margin-bottom: 0px;
+    }
+
+    .project_title {
+        text-align: center;
+        margin: 0;
     }
 
     .project-background {
@@ -486,7 +511,7 @@
     }
 
     #portfolio-items {
-        padding-top: 30px;
+        padding-top: 15px;
     }
 
     .portfolio-desc {
@@ -496,7 +521,8 @@
 /* ~~~ Portfolio Page ~~~ */
 
     .portfolio-page h2 {
-        font-family: 'Hind', 'regular';        
+        font-family: 'Nunito', sans-serif; 
+        font-size: 1.8rem;
     }
 
     .portfolio-page h4 {
@@ -509,6 +535,10 @@
         margin-bottom: 0;
         margin-top: 2px;
         margin-bottom: 2px;
+    }
+
+    .portfolio-page a {
+        font-family: 'IBM Plex Sans Condensed', sans-serif;      
     }
 
     .port_title {
@@ -550,6 +580,7 @@
     }
 
     .modal-title {
+        font-family: 'Nunito', sans-serif;
         color: black !important;
     }
 
@@ -588,6 +619,5 @@
         margin-right: auto;
         width: 60%;
         padding-bottom: 15px;
-        font-family: 'Fira Mono', monospace;
         text-align: center;
     }
