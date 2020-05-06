@@ -25,6 +25,11 @@
         color: white;
     }
 
+    header {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
     footer {
         padding-top: 15px;
         padding-bottom: 15px;
@@ -153,11 +158,6 @@
 
     /* Header */
 
-
-    header {
-        margin-top: 2%;
-        margin-bottom: 2%;
-    }
 
     .logo-wrapper {
         padding: 0;
