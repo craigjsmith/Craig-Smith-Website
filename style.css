@@ -1,5 +1,5 @@
-/* Google Fonts - Fira Mono, Hind */
-@import url('https://fonts.googleapis.com/css2?family=Hind&family=IBM+Plex+Sans+Condensed:wght@300&family=Nunito:wght@400;700&family=Ubuntu+Mono&display=swap');
+/* Google Fonts - Hind, Montserrat, Noto Sans JP, Nunito */
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400&family=Montserrat:wght@500&family=Noto+Sans+JP:wght@100&family=Nunito&display=swap');
 
 /* Adobe Fonts - Myriad Pro */
 @import url("https://use.typekit.net/bbg1paf.css");
@@ -31,6 +31,10 @@
         color: white;
     }
 
+    footer h4 {
+        font-family: 'Hind', 'regular' !important;
+    }
+
     section {
         width: 100%;
         padding: 0 7%;
@@ -53,6 +57,7 @@
         background-color: #013240;
         padding-top: 0%;
         padding-bottom: 0%;
+        font-family: 'Hind', sans-serif;
     }
 
     .main {
@@ -113,7 +118,7 @@
 
     h4 {
         font-size: 1rem;
-        font-family: 'IBM Plex Sans Condensed', sans-serif;
+        font-family: 'Noto Sans JP', sans-serif;
         color: white;
     }
 
@@ -208,7 +213,7 @@
     #nav h5 {
         margin: 0;
         padding: 0;
-        font-family: 'IBM Plex Sans Condensed', sans-serif;
+        font-family: 'Noto Sans JP', sans-serif;
         font-size: 14pt;
     }
 
@@ -229,7 +234,7 @@
 /* ~~~ About ~~~ */
 
     #hi {
-        font-family: 'Ubuntu Mono', monospace;
+        font-family: 'Montserrat', sans-serif;
         padding-bottom: 5px;
         color: white;
         text-align: left;
@@ -521,7 +526,7 @@
 /* ~~~ Portfolio Page ~~~ */
 
     .portfolio-page h2 {
-        font-family: 'Nunito', sans-serif; 
+        font-family: 'Noto Sans JP', sans-serif;
         font-size: 1.8rem;
     }
 
@@ -538,7 +543,7 @@
     }
 
     .portfolio-page a {
-        font-family: 'IBM Plex Sans Condensed', sans-serif;      
+        font-family: 'Noto Sans JP', sans-serif;    
     }
 
     .port_title {
