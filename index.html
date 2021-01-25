@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang='en'>
+<html lang='en' prefix="og: https://craigsmith.dev fb: https://craigsmith.dev website: https://craigsmith.dev">
 
 <head>
     <!-- FontAwesome -->
@@ -13,7 +13,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="style.css" />
-
     <script src="script.js"></script>
 
     <!-- Required meta tags -->
@@ -21,10 +20,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Meta -->
-    <meta property='og:title' content='Craig Smith'/>
-    <meta property='og:image' content='https://craigsmith.dev/assets/ico/thumb.jpg'/>
-    <meta property='og:description' content='Description that will show in the preview'/>
-    <meta property='og:url' content='https://craigsmith.dev'/>
+    <meta name="description" content="Student @ Michigan State University • Computer Science & Experience Architecture (UX) • Web/Mobile Development">
+
+    <meta property="og:url" content="https://craigsmith.dev">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Craig Smith">
+    <meta property="og:description" content="Student @ Michigan State University • Computer Science & Experience Architecture (UX) • Web/Mobile Development">
+    <meta property="og:image" content="https://craigsmith.dev/assets/ico/thumb.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="craigsmith.dev">
+    <meta property="twitter:url" content="https://craigsmith.dev">
+    <meta name="twitter:title" content="Craig Smith">
+    <meta name="twitter:description" content="Student @ Michigan State University • Computer Science & Experience Architecture (UX) • Web/Mobile Development">
+    <meta name="twitter:image" content="https://craigsmith.dev/assets/ico/thumb.jpg">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127713199-1"></script>
@@ -37,8 +46,8 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-127713199-1');
-    </script>
 
+    </script>
 
     <title>Craig Smith</title>
     <link rel="shortcut icon" type="image/x-icon" href="assets/ico/favicon.ico" />
@@ -58,14 +67,14 @@
                             <div class="logo-wrapper col my-auto">
                                 <a href="/" class="noLink">
                                     <picture>
-                                      <source media="(max-width: 768px)" srcset="assets/pic/cs.svg">
-                                      <source media="(min-width: 769px)" srcset="assets/pic/craigsmith.svg">
-                                      <img src="assets/pic/craigsmith.svg" id="logo" alt="Craig Smith">
+                                        <source media="(max-width: 768px)" srcset="assets/pic/cs.svg">
+                                        <source media="(min-width: 769px)" srcset="assets/pic/craigsmith.svg">
+                                        <img src="assets/pic/craigsmith.svg" id="logo" alt="Craig Smith">
                                     </picture>
                                 </a>
                             </div>
 
-                            <div id = "nav-wrapper" class="col-auto col-lg my-auto">
+                            <div id="nav-wrapper" class="col-auto col-lg my-auto">
 
                                 <div class="row" id="nav">
                                     <div class="col nav-item nav-item-first">
@@ -139,134 +148,149 @@
                 <h2>(Click to read about my experience)</h2>
 
 
-                    <div class="container" id="skills-container">
+                <div class="container" id="skills-container">
 
-                        <div class="row">
-
-                            <div class="col-lg-2 col-sm-12 skill-title">
-                                <h2>Languages</h2>
-                            </div>
-
-                            <div class="col-lg-2 col-sm-3 col-4 skill-btn" name="Java" remote="skills/java.html">
-                                <div class="skill-btn-inner">
-                                    <img src="assets/icons/java.png" class="skill" alt="Java">
-                                    <h4>Java</h4>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-2 col-sm-3 col-4 skill-btn" name="JavaScript" remote="skills/javascript.html">
-                                <div class="skill-btn-inner">
-                                    <img src="assets/icons/javascript.png" class="skill" alt="JavaScript">
-                                    <h4>JavaScipt</h4>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-2 col-sm-3 col-4 skill-btn" name="C++" remote="skills/c.html">
-                                <div class="skill-btn-inner">
-                                    <img src="assets/icons/c.png" class="skill" alt="C++">
-                                    <h4>C++</h4>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-2 col-sm-3 col-4 skill-btn" name="Python" remote="skills/python.html">
-                                <div class="skill-btn-inner">
-                                    <img src="assets/icons/python.png" class="skill" alt="Python">
-                                    <h4>Python</h4>
-                                </div>
-                            </div>
-                            
-                            <div class="col-lg-2 col-sm-3 col-4 skill-btn" name="Swift" remote="skills/swift.html">
-                                <div class="skill-btn-inner">
-                                    <img src="assets/icons/swift.png" class="skill" alt="Swift">
-                                    <h4>Swift</h4>
-                                </div>
-                            </div>
-
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12 skill-title">
+                            <h2>Languages</h2>
                         </div>
 
-                        <div id="tech">
-
+                        <div class="col-lg-10 col-md-12">
                             <div class="row">
-
-                                <div class="col-lg-2 col-sm-12 skill-title">
-                                    <h2>Tech</h2>
-                                </div>
-
-                                <div class="col-lg-2 col-sm-3 col-4 skill-btn" name="Amazon Web Services" remote="skills/aws.html">
+                                <div class="col-lg-2 col-md-3 col-4 skill-btn" name="Java" remote="skills/java.html">
                                     <div class="skill-btn-inner">
-                                        <img src="assets/icons/aws.png" class="skill" alt="AWS">
-                                        <h4>AWS</h4>
+                                        <img src="assets/icons/java.png" class="skill" alt="Java">
+                                        <h4>Java</h4>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-2 col-sm-3 col-4 skill-btn" name="Android" remote="skills/android.html">
+                                <div class="col-lg-2 col-md-3 col-4 skill-btn" name="JavaScript" remote="skills/javascript.html">
                                     <div class="skill-btn-inner">
-                                        <img src="assets/icons/android.png" class="skill" alt="Android">
-                                        <h4>Android</h4>
+                                        <img src="assets/icons/javascript.png" class="skill" alt="JavaScript">
+                                        <h4>JavaScipt</h4>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-2 col-sm-3 col-4 skill-btn" name="React JS" remote="skills/reactjs.html">
+                                <div class="col-lg-2 col-md-3 col-4 skill-btn" name="C++" remote="skills/c.html">
                                     <div class="skill-btn-inner">
-                                        <img src="assets/icons/react.png" class="skill" alt="React">
-                                        <h4>React JS</h4>
+                                        <img src="assets/icons/c.png" class="skill" alt="C++">
+                                        <h4>C++</h4>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-2 col-sm-3 col-4 skill-btn" name="Git" remote="skills/git.html">
+                                <div class="col-lg-2 col-md-3 col-4 skill-btn" name="Python" remote="skills/python.html">
                                     <div class="skill-btn-inner">
-                                        <img src="assets/icons/git.png" class="skill" alt="Git">
-                                        <h4>Git</h4>
+                                        <img src="assets/icons/python.png" class="skill" alt="Python">
+                                        <h4>Python</h4>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-2 col-sm-3 col-4 skill-btn" name="Docker" remote="skills/docker.html">
+                                <div class="col-lg-2 col-md-3 col-4 skill-btn" name="Swift" remote="skills/swift.html">
                                     <div class="skill-btn-inner">
-                                        <img src="assets/icons/docker.png" class="skill" alt="Docker">
-                                        <h4>Docker</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div id="design">
-
-                            <div class="row">
-
-                                <div class="col-lg-2 col-sm-12 skill-title">
-                                    <h2>Design</h2>
-                                </div>
-
-                                <div class="col-lg-2 col-sm-3 col-4 skill-btn" name="HTML / CSS" remote="skills/html.html">
-                                    <div class="skill-btn-inner">
-                                        <img src="assets/icons/html.png" class="skill" alt="HTML/CSS">
-                                        <h4>HTML/CSS</h4>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-2 col-sm-3 col-4 skill-btn" name="Bootstrap" remote="skills/bootstrap.html">
-                                    <div class="skill-btn-inner">
-                                        <img src="assets/icons/bootstrap.png" class="skill" alt="Bootstrap">
-                                        <h4>Bootstrap</h4>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-2 col-sm-3 col-4 skill-btn" name="Adobe XD" remote="skills/xd.html">
-                                    <div class="skill-btn-inner">
-                                        <img src="assets/icons/xd.png" class="skill" alt="Adobe XD">
-                                        <h4>Adobe XD</h4>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-2 col-sm-3 col-4 skill-btn" name="Adobe Illustrator" remote="skills/illustrator.html">
-                                    <div class="skill-btn-inner">
-                                        <img src="assets/icons/illustrator.png" class="skill" alt="Illustrator">
-                                        <h4>Illustrator</h4>
+                                        <img src="assets/icons/swift.png" class="skill" alt="Swift">
+                                        <h4>Swift</h4>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <div id="tech">
+                        <div class="row">
+                            <div class="col-lg-2 col-md-12 skill-title">
+                                <h2>Tech</h2>
+                            </div>
+
+                            <div class="col-lg-10 col-md-12">
+                                <div class="row">
+                                    <div class="col-lg-2 col-md-3 col-4 skill-btn" name="Amazon Web Services" remote="skills/aws.html">
+                                        <div class="skill-btn-inner">
+                                            <img src="assets/icons/aws.png" class="skill" alt="AWS">
+                                            <h4>AWS</h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-3 col-4 skill-btn" name="Parse" remote="skills/parse.html">
+                                        <div class="skill-btn-inner">
+                                            <img src="assets/icons/parse.png" class="skill" alt="Parse">
+                                            <h4>Parse</h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-3 col-4 skill-btn" name="Android" remote="skills/android.html">
+                                        <div class="skill-btn-inner">
+                                            <img src="assets/icons/android.png" class="skill" alt="Android">
+                                            <h4>Android</h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-3 col-4 skill-btn" name="React JS" remote="skills/reactjs.html">
+                                        <div class="skill-btn-inner">
+                                            <img src="assets/icons/react.png" class="skill" alt="React">
+                                            <h4>React JS</h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-3 col-4 skill-btn" name="Git" remote="skills/git.html">
+                                        <div class="skill-btn-inner">
+                                            <img src="assets/icons/git.png" class="skill" alt="Git">
+                                            <h4>Git</h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-3 col-4 skill-btn" name="Docker" remote="skills/docker.html">
+                                        <div class="skill-btn-inner">
+                                            <img src="assets/icons/docker.png" class="skill" alt="Docker">
+                                            <h4>Docker</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="design">
+
+                        <div class="row">
+
+                            <div class="col-lg-2 col-md-12 skill-title">
+                                <h2>Design</h2>
+                            </div>
+
+                            <div class="col-lg-10 col-md-12">
+                                <div class="row">
+                                    <div class="col-lg-2 col-md-3 col-4 skill-btn" name="HTML / CSS" remote="skills/html.html">
+                                        <div class="skill-btn-inner">
+                                            <img src="assets/icons/html.png" class="skill" alt="HTML/CSS">
+                                            <h4>HTML/CSS</h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-3 col-4 skill-btn" name="Bootstrap" remote="skills/bootstrap.html">
+                                        <div class="skill-btn-inner">
+                                            <img src="assets/icons/bootstrap.png" class="skill" alt="Bootstrap">
+                                            <h4>Bootstrap</h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-3 col-4 skill-btn" name="Adobe XD" remote="skills/xd.html">
+                                        <div class="skill-btn-inner">
+                                            <img src="assets/icons/xd.png" class="skill" alt="Adobe XD">
+                                            <h4>Adobe XD</h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-3 col-4 skill-btn" name="Adobe Illustrator" remote="skills/illustrator.html">
+                                        <div class="skill-btn-inner">
+                                            <img src="assets/icons/illustrator.png" class="skill" alt="Illustrator">
+                                            <h4>Illustrator</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="row">
                     <dic class="col-12 text-center">
@@ -299,7 +323,7 @@
                                     </a>
                                 </div>
                             </div>
-                            
+
                             <div class="project col-12 col-md-6">
                                 <div class="project-background">
                                     <a class="noLink" href="projects/ilistento.html">
@@ -310,8 +334,8 @@
                                 </div>
                             </div>
                         </div>
-                        
-                        <div class="row">                            
+
+                        <div class="row">
                             <div class="project col-12 col-md-6">
                                 <div class="project-background">
                                     <a class="noLink" href="projects/towers.html">
@@ -325,7 +349,7 @@
                             <div class="project col-12 col-md-6">
                                 <div class="project-background">
                                     <a class="noLink" href="projects/hollysaugatuck.html">
-                                        <img src="assets/portfolio/holly_devices.png" class="port_img" alt="Holly Leo Campaign Website">
+                                        <img src="assets/portfolio/holly.png" class="port_img" alt="Holly Leo Campaign Website">
 
                                         <h2 class="project_title">Holly Leo Campaign Website</h2>
                                     </a>
@@ -347,14 +371,14 @@
                             <div class="project col-12 col-md-6">
                                 <div class="project-background">
                                     <a class="noLink" href="projects/scout.html">
-                                        <img src="assets/portfolio/bobscout.png" class="port_img" alt="FIRST Robotics Scouting App">
+                                        <img src="assets/portfolio/scout.png" class="port_img" alt="FIRST Robotics Scouting App">
 
                                         <h2 class="project_title">FIRST Robotics Scouting App</h2>
                                     </a>
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -380,4 +404,6 @@
             </div>
         </div>
     </div>
-</div></html>
+</div>
+
+</html>
