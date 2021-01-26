@@ -489,7 +489,7 @@
     .port_big_img {
         margin-bottom: 20px;
         max-height: 400px;
-        max-width: 86vw;
+        max-width: 100%;
         display: block;
         margin-left: auto;
         margin-right: auto;
