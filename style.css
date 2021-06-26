@@ -1,14 +1,9 @@
-/* Google Fonts - Hind, Montserrat, Noto Sans JP, Nunito */
-@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400&family=Montserrat:wght@500&family=Noto+Sans+JP:wght@100&family=Nunito&display=swap');
-
-/* Adobe Fonts - Myriad Pro */
-@import url("https://use.typekit.net/bbg1paf.css");
+/* Google Fonts - Hind, Poppins, Noto Sans JP, Nunito */
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Noto+Sans+JP&family=Nunito&family=Poppins&display=swap');
 
 /* Bootstrap */
 @import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
 
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 /* ~~~ Basic ~~~ */
 
@@ -545,12 +540,13 @@
 /* ~~~ Portfolio Page ~~~ */
 
     .portfolio-page h2 {
-        font-family: 'Nunito';
-        font-size: 1.8rem;
+        font-family: 'Hind';
+        font-size: 2.2rem;
     }
 
     .portfolio-page h4 {
         font-size: 16pt;
+        font-family: 'Hind';
         vertical-align: left;
         font-weight: 200;
         line-height: 35px;
@@ -562,7 +558,7 @@
     }
 
     .portfolio-page a {
-        font-family: 'Noto Sans JP', sans-serif;    
+        font-family: 'Hind', sans-serif;    
     }
 
     .port_title {
@@ -619,7 +615,6 @@
         padding-right: 20px;
     }
 
-
     .slide-img {
         height: 600px;
         width: auto;
@@ -643,6 +638,24 @@
         max-width: 100%;
         height: auto;
         padding-bottom: 20px;
+    }
+    
+    .notice {
+        background-color: #226F83;
+        color: white;
+        padding: 1.3rem;
+        border-radius: 25px;
+        margin-bottom: 15px;
+    }
+
+    .notice h1 {
+        font-size: 1.5rem;
+    }
+
+    .notice p {
+        font-size: 1rem;
+        font-family: "Hind";
+        margin: 0;
     }
 
 /* ~~~ Skill Modal ~~~ */
