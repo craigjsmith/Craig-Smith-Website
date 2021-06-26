@@ -7,6 +7,9 @@
 /* Bootstrap */
 @import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
 
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
 /* ~~~ Basic ~~~ */
 
     * {
@@ -19,7 +22,7 @@
     }
 
     body {
-        background-color: #013240;
+        background-color: #002b36;
         overflow-x: hidden;
         color: white;
     }
@@ -54,7 +57,7 @@
 
     .about {
         height: 90vh;
-        background-color: #013240;
+        background-color: #002b36;
         padding-top: 0%;
         padding-bottom: 0%;
         font-family: 'Hind', sans-serif;
@@ -62,7 +65,7 @@
 
     .main {
         height: 100%;
-        background-color: #013240;
+        background-color: #002b36;
         padding-top: 0%;
         padding-bottom: 0%;
     }
@@ -79,7 +82,7 @@
 
     .portfolio {
         height: 100%;
-        background-color: #013240;
+        background-color: #002b36;
         padding-top: 50px;
         padding-bottom: 50px;
     }
@@ -112,7 +115,7 @@
 
     h3 {
         font-size: 1.5rem;
-        font-family: 'Ubuntu Mono', monospace;
+        font-family: 'Hind', 'regular';
         color: white;
     }
 
@@ -183,9 +186,6 @@
         max-width: 90%;
         height: 100px;
         object-fit: contain !important;
-        font-family: 'myriad-pro', sans-serif;
-        font-style: normal;
-        font-weight: 400;
         padding-left: 0px;
         padding-right: 0px;
     }
@@ -217,8 +217,8 @@
     #nav h5 {
         margin: 0;
         padding: 0;
-        font-family: 'Noto Sans JP', sans-serif;
         font-size: 14pt;
+        font-family: 'Poppins', sans-serif;
     }
 
     .nav-item {
@@ -238,7 +238,7 @@
 /* ~~~ About ~~~ */
 
     #hi {
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Nunito';
         padding-bottom: 5px;
         color: white;
         text-align: left;
@@ -516,7 +516,7 @@
     }
 
     .project-background {
-        background-color: #002833;
+        background-color: #00212b;
         padding: 15px;
         height: 100%;
         border: 2px solid #000C0F;
@@ -545,7 +545,7 @@
 /* ~~~ Portfolio Page ~~~ */
 
     .portfolio-page h2 {
-        font-family: 'Noto Sans JP', sans-serif;
+        font-family: 'Nunito';
         font-size: 1.8rem;
     }
 
