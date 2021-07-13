@@ -80,12 +80,10 @@
         width: 100%;
         margin: 0;
         padding: 0;
-        background-color: #226F83;
+        background-color: #002b36;
         padding-top: 50px;
         padding-bottom: 50px;
-        box-shadow:
-            inset 0px 11px 12px -10px #000000,
-            inset 0px -11px 12px -10px #000000;
+        text-align: center;
     }
 
     .portfolio {
