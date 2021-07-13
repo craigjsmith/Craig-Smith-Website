@@ -75,6 +75,19 @@
             inset 0px -11px 12px -10px #000000;
     }
 
+    .contact {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #226F83;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        box-shadow:
+            inset 0px 11px 12px -10px #000000,
+            inset 0px -11px 12px -10px #000000;
+    }
+
     .portfolio {
         height: 100%;
         background-color: #002b36;
@@ -85,10 +98,6 @@
     .content {
         display: table-cell;
         vertical-align: middle;
-    }
-
-    .content-nova {
-        display: table-cell;
     }
 
     p {
@@ -423,9 +432,17 @@
 
     #resumebtn {
         margin-top: 25px;
+        padding: 15px;
         color: white;
         border-color: white;
         font-family: 'Hind', 'regular';
+    }
+
+    .resume-pdf {
+        margin: 0;
+        padding: 0;
+        line-height: 0;
+        font-size: 1.5rem;
     }
 
     #resumebtn:hover {
@@ -474,7 +491,8 @@
 
     .port_img {
         margin-bottom: 20px;
-        width: 90%;
+        max-width: 90%;
+        height: 200px;
         object-fit: contain;
         display: block;
         margin-left: auto;
@@ -507,6 +525,13 @@
 
     .project_title {
         text-align: center;
+        font-size: 16pt;
+        margin: 0;
+    }
+
+    .project_subtitle {
+        text-align: center;
+        font-size: 10pt;
         margin: 0;
     }
 
@@ -531,10 +556,19 @@
         padding-top: 15px;
     }
 
-    video {
+    #towervideo {
         width: 500px;
         max-width: 100%;
         height: auto;
+    }
+
+    #portfoliovideo {
+        margin-bottom: 20px;
+        max-height: 400px;
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 /* ~~~ Portfolio Page ~~~ */
@@ -625,6 +659,15 @@
         width: 200px;
     }
 
+    #genisama-diagram {
+        max-height: 500px;
+    }
+
+    #diagram-sub {
+        text-align: center;
+        margin: 0;
+    }
+
     @media (max-width: 768px) {
         .app-download {
             display: block;
@@ -646,6 +689,7 @@
         padding: 1.3rem;
         border-radius: 25px;
         margin-bottom: 15px;
+        border: 2px solid #ffffff;
     }
 
     .notice h1 {
@@ -656,6 +700,24 @@
         font-size: 1rem;
         font-family: "Hind";
         margin: 0;
+    }
+
+    .portfolio-section {
+        background-color: #133e49;
+        color: white;
+        padding: 2rem;
+        border-radius: 10px;
+        margin-bottom: 2rem;
+        text-align: left;
+    }
+
+    .portfolio-section img, .portfolio-section video {
+        margin-bottom: 20px;
+        width: 100%;
+        object-fit: contain;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 /* ~~~ Skill Modal ~~~ */

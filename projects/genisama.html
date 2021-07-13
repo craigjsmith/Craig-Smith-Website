@@ -67,7 +67,7 @@
                 <div class="row">
                     <div class="row portfolio-page">
                         <div class="col-12 center">
-                            <img src="/assets/portfolio/genisama_info.png" class="port_big_img" alt = "GENISAMA Software Download Screenshot & Diagram">
+                            <img src="/assets/portfolio/genisama.png" class="port_big_img" alt = "GENISAMA Software Download Screenshot & Diagram">
                         </div>
 
                         <div class="col">
@@ -104,9 +104,14 @@
                             </div>
 
                             <div class = "portfolio-desc">
-                                <p>GENISAMA, a startup artificial intelligence company spun off from Michigan State University research, needed a solution to distribute software to their customers. This distribution needed to be authenticated and only available to customers with a valid serial code. Using serverless technologies from Amazon Web Services, I built a web application that allows for this.</p>
+                                <p>GENISAMA, a startup artificial intelligence company spun off from Michigan State University research, needed a solution to distribute software to their customers. This software is only available to customers with a valid serial code. Using serverless technologies from Amazon Web Services, I built a web application that allows for this.</p>
 
                                 <p>First, a user creates an account. Along with their registration, they provide a serial number. Using Lambda and DynamoDB, these serial numbers can be verified and assigned uniquely to a user. Before the serial numbers are checked, the invisible reCAPTCHA v3 must be satisfied. This prevents spam, or bot attempts to guess a valid serial number. After registration, the user is prompted to verify their account with a confirmation code sent to their email through SES. Users may reset their password from this email address if needed. Once their account registration has been completed, the user is allowed to download their licensed software. Every file download is provisioned through Cognito and IAM, so the resulting download link is only valid for the provisioned user, and only temporarily.</p>
+
+                                <div class="portfolio-section">
+                                    <img src="/assets/portfolio/genisama-diagram.png" id="genisama-diagram">
+                                    <p id="diagram-sub">AWS architecture diagram for Genisama Software Portal</p>
+                                </div>
 
                                 <p>With my software, GENISAMA can securely distribute their proprietary software exclusively to licensed customers. Built with modern web technologies, my solution is scalable, cost effective, and reliable.</p>
                                 

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+
+<head>
+    <link rel="stylesheet" href="/style.css" />
+
+    <script src="/script.js"></script>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127713199-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-127713199-1');
+    </script>
+    
+    <title>Craig Smith - Sorry! Online Multiplayer Game</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/ico/favicon.ico" />
+    
+</head>
+
+<body>
+
+    <section class="main">
+        <div class="content">
+
+            <header>
+                <div class="container">
+                    <div>
+                        <div class="row">
+
+                            <div class="logo-wrapper col my-auto">
+                                <a href="/" class="noLink">
+                                    <picture>
+                                      <source media="(max-width: 768px)" srcset="/assets/pic/cs.svg">
+                                      <source media="(min-width: 769px)" srcset="/assets/pic/craigsmith.svg">
+                                      <img src="/assets/pic/craigsmith.svg" id="logo" alt="Craig Smith">
+                                    </picture>
+                                </a>
+                            </div>
+
+                            <div id = "nav-wrapper" class="col-auto col-lg my-auto">
+
+                                <div class="row" id="nav">
+                                    <div class="col nav-item nav-item-last">
+                                        <a href="/">
+                                            <h5>back to website</h5>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="container">
+                <div class="row">
+                    <div class="row portfolio-page">
+                        <div class="col-12 center">
+                            <video id="portfoliovideo" playsinline autoplay muted loop>
+                                <source src="/assets/portfolio/sorry.mp4" type="video/mp4">
+                            </video>
+                        </div>
+
+                        <div class="col">
+                            <h2>Sorry! Online Multiplayer Game</h2>
+
+                            <div class="row">
+                                <div class="col-auto portfolio_col_icon">
+                                    <img src="/assets/ico/info_ico.png" alt = "Info" class="align-top port_ico">
+                                </div>
+
+                                <div class="col portfolio_col_text">
+                                    <h4>An online multiplayer version of the Sorry! board game</h4>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-auto portfolio_col_icon">
+                                    <img src="/assets/ico/keyboard_ico.png" alt = "Technologies" class="align-top port_ico">
+                                </div>
+
+                                <div class="col portfolio_col_text">
+                                    <h4 class="tech">PHP, HTML, MySQL</h4>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-auto portfolio_col_icon">
+                                    <img src="/assets/ico/calendar-ico.png"  alt = "Date" class="align-top port_ico">
+                                </div>
+
+                                <div class="col-auto portfolio_col_text">
+                                    <h4 class="tech">March - April 2021</h4>
+                                </div>
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-12 col-sm-auto">
+                                    <div class="row">
+                                        <div class="col-auto portfolio_col_icon">
+                                            <img src="/assets/ico/git_ico.png" alt = "GitHub" class="align-top port_ico">
+                                        </div>
+
+                                        <div class="col-auto portfolio_col_text">
+                                            <h4><a href="https://github.com/craigjsmith/sorry-game" target="_blank" rel="noopener">Source Code</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class = "portfolio-desc">
+                                <p>This game was developed as a team project as part of CSE 477 – Web Application Development at Michigan State University Spring 2021. This multiplayer game supports up to four players. The first version supported local multiplayer (all players must be together in person to play from a single computer) Later we extended it to support online multiplayer (all players use their own computers from anywhere in the world).</p>
+                            
+                                <p>First, players register an account. A verification email is sent containing a link to set their password. Next the player enters the lobby screen. From here they can join an open lobby or start a new one. After waiting for at least two players to join, the game can begin. The players take turns moving their pieces around the board. Clicking on a pawn will show all its potential moves. The first player to land all four of their pawns in their home square wins. This follows typical Sorry! game rules, which can be found <a href = "https://www.ultraboardgames.com/sorry/game-rules.php">here</a>.</p>
+                           
+                                <p>User account details and game state are stored in a MySQL database. The game state is serialized into a standardized JSON format which the current player’s client pushes its changes on, prompting all other clients through a webhook to pull the new game state.</p>
+                            
+                                <p>The source code for the game is available on GitHub, linked above. I currently do not have a live version hosted due to hosting and cost limitations but may do so in the future.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h4>&copy; Craig Smith</h4>
+    </footer>
+
+</body>
+
+</html>
